@@ -16,8 +16,6 @@ def FindMeaningfulWords(AllStrings):
 
         if (dictionary.meaning(assem_word, disable_errors=True) != None):
             Mean_Words.append(assem_word)
-        else:
-            pass    
 
     return Mean_Words
 
